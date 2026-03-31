@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jitendra Swami | Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Jitendra Swami, Aspiring Software Developer skilled in C++ and Java.">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">JS<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn" aria-label="Open Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section-padding">
+            <div class="hero-content fade-in-up">
+                <p class="greeting">Hi there, I am</p>
+                <h1 class="name">Jitendra Swami</h1>
+                <h2 class="title">I'm a <span id="typing-text"></span><span class="cursor">_</span></h2>
+                <p class="description">
+                    Professional Software Developer with a strong foundation in C++ and Java. I specialize in building
+                    robust, scalable applications and solving complex problems with clean code.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    <a href="Jitendra_Resume (2).pdf" class="btn btn-download" download aria-label="Download Resume"><i
+                            class="fa-solid fa-file-arrow-down"></i> Resume</a>
+                </div>
+                <div class="social-links-hero">
+                    <a href="https://github.com/Jitendra7867" target="_blank" rel="noopener noreferrer"><i
+                            class="fa-brands fa-github"></i></a>
+                    <a href="http://www.linkedin.com/in/jitendra-swami78" target="_blank" rel="noopener noreferrer"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://leetcode.com/u/Jitendraswami/" target="_blank" rel="noopener noreferrer"><i
+                            class="fa-solid fa-code"></i></a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper fade-in-up delayed">
+                <img src="hero_avatar.png" alt="Jitendra Swami - Developer Avatar" class="hero-image">
+                <div class="glow-effect"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding">
+            <div class="container reveal">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I am a passionate software developer with strong skills in C++, Java, and creative
+                            problem-solving. Currently, I am a 3rd-year B.Tech Computer Science student at BKBIET,
+                            focusing on mastering Core Concepts and tackling real-world projects.</p>
+                        <p>I thrive on challenges and have solved over 200+ problems on LeetCode, continually honing my
+                            Data Structures & Algorithms expertise. My ultimate goal is to build highly scalable
+                            software and crack FAANG-level interviews.</p>
+
+                        <div class="stats-cards">
+                            <div class="stat-card">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <h3>Education</h3>
+                                <p>B.Tech CS (3rd Year)<br>BKBIET</p>
+                            </div>
+                            <div class="stat-card">
+                                <i class="fa-solid fa-trophy"></i>
+                                <h3>Achievements</h3>
+                                <p>200+ LeetCode <br>DSA Enthusiast</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-padding">
+            <div class="container reveal">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3><i class="fa-solid fa-code"></i> Languages</h3>
+                        <div class="skill-tags">
+                            <div class="skill-tag"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
+                                    alt="C++"><span>C++</span></div>
+                            <div class="skill-tag"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+                                    alt="Java"><span>Java</span></div>
+                            <div class="skill-tag"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+                                    alt="Python"><span>Python</span></div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fa-solid fa-globe"></i> Web Dev</h3>
+                        <div class="skill-tags">
+                            <div class="skill-tag"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                                    alt="HTML5"><span>HTML5</span></div>
+                            <div class="skill-tag"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                                    alt="CSS3"><span>CSS3</span></div>
+                            <div class="skill-tag"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                                    alt="JavaScript"><span>JavaScript</span></div>
+                            <div class="skill-tag"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+                                    alt="React"><span>React</span></div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fa-solid fa-server"></i> Backend & DB</h3>
+                        <div class="skill-tags">
+                            <div class="skill-tag"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg"
+                                    alt="Spring Boot"><span>Spring Boot</span></div>
+                            <div class="skill-tag"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+                                    alt="Node.js"><span>Node.js</span></div>
+                            <div class="skill-tag"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+                                    alt="MongoDB"><span>MongoDB</span></div>
+                            <div class="skill-tag"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
+                                    alt="MySQL"><span>MySQL</span></div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fa-solid fa-screwdriver-wrench"></i> Tools</h3>
+                        <div class="skill-tags">
+                            <div class="skill-tag"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+                                    alt="Git"><span>Git</span></div>
+                            <div class="skill-tag"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                                    alt="GitHub" class="theme-invert"><span>GitHub</span></div>
+                            <div class="skill-tag"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"
+                                    alt="VS Code"><span>VS Code</span></div>
+                            <div class="skill-tag"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original.svg"
+                                    alt="Jupyter"><span>Jupyter</span></div>
+                            <div class="skill-tag"><img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
+                                    alt="Linux"><span>Linux</span></div>
+                        </div>
+                    </div>
+                    <div class="skill-category full-width">
+                        <h3><i class="fa-solid fa-brain"></i> Core Concepts</h3>
+                        <div class="skill-tags">
+                            <div class="skill-tag"><span>Data Structures & Algorithms</span></div>
+                            <div class="skill-tag"><span>Object-Oriented Programming (OOP)</span></div>
+                            <div class="skill-tag"><span>Database Management Systems (DBMS)</span></div>
+                            <div class="skill-tag"><span>Operating Systems (OS)</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding">
+            <div class="container reveal">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-img-placeholder">
+                            <i class="fa-solid fa-robot"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>AI Resume Screener</h3>
+                            <p>An AI-based system that analyzes candidate resumes and provides intelligent feedback and
+                                ranking based on job descriptions.</p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Machine Learning</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://resume-analyzer-1-7s8l.onrender.com" target="_blank" class="btn-sm"><i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                                <a href="#" class="btn-sm outline"><i class="fa-brands fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 Placeholder -->
+                    <div class="project-card">
+                        <div class="project-img-placeholder">
+                            <i class="fa-solid fa-cloud"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>Weather Dashboard Application</h3>
+                            <p>A responsive real-time weather forecasting tool that integrates third-party RESTful APIs
+                                to display current and 7-day data.</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>CSS Modules</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live
+                                    Demo</a>
+                                <a href="#" class="btn-sm outline"><i class="fa-brands fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding">
+            <div class="container reveal">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's talk about everything!</h3>
+                        <p>Don't like forms? Send me an email. 👋</p>
+                        <ul class="contact-details">
+                            <li><i class="fa-solid fa-envelope"></i> <a
+                                    href="mailto:jitendra25042006@gmail.com">jitendra25042006@gmail.com</a></li>
+                            <li><i class="fa-solid fa-phone"></i> <a href="tel:+918708962545">+91 8708962545</a></li>
+                            <li><i class="fa-solid fa-location-dot"></i> India</li>
+                        </ul>
+                    </div>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2026 Jitendra Swami. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/Jitendra7867" target="_blank" rel="noopener"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href="http://www.linkedin.com/in/jitendra-swami78" target="_blank" rel="noopener"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://leetcode.com/u/Jitendraswami/" target="_blank" rel="noopener"><i
+                        class="fa-solid fa-code"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
