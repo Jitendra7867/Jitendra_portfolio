@@ -237,22 +237,11 @@ img {
 }
 
 .nav-links a:hover,
-.nav-links a.active,
-.nav-resume-btn:hover {
+.nav-links a.active {
     color: var(--primary);
 }
 
-.nav-resume-btn {
-    border: 1px solid var(--primary);
-    padding: 0.4rem 1rem;
-    border-radius: 6px;
-    transition: all 0.3s ease;
-}
 
-.nav-resume-btn:hover {
-    background: var(--primary);
-    color: #fff !important;
-}
 
 .nav-links a::after {
     content: '';
